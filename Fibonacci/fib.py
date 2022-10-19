@@ -13,4 +13,4 @@ list = []
 for e in range(1, leng + 1):
     list.append(fibo(e))
 
-print(f"Fibonacci: {list}\n")
+print(f'Fibonacci: {list}\n')

@@ -31,4 +31,4 @@ def neg_fib(le):
 for e in range(0, leng + 1):
     list.insert(0, neg_fib(e))
 
-print(f"NegaFibonacci: {list}")
+print(f'NegaFibonacci: {list}')

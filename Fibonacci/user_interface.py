@@ -12,8 +12,8 @@ def length():
     if leng < 1:
         sys.exit('Incorrect number entered')
 
-    print("If you want to print the Fibonacci sequence, press 1")
-    print("If you want to print the anti Fibonacci sequence, press 2")
+    print('If you want to print the Fibonacci sequence, press 1')
+    print('If you want to print the anti Fibonacci sequence, press 2')
 
     n = int(input('Enter the number: '))
 
