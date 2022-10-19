@@ -4,14 +4,13 @@ leng = 0
 n = 0
 
 
-def length(le):
+def length():
     global leng
     global n
 
-    le = int(input('Enter the length of the array: '))
-    if le < 1:
+    leng = int(input('Enter the length of the array: '))
+    if leng < 1:
         sys.exit('Incorrect number entered')
-    leng = le
 
     print("If you want to print the Fibonacci sequence, press 1")
     print("If you want to print the anti Fibonacci sequence, press 2")
@@ -24,4 +23,4 @@ def length(le):
     return leng, n
 
 
-length(leng)
+length()
