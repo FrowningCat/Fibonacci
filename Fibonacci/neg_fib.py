@@ -1,5 +1,17 @@
 from user_interface import leng
-from fib import list
+
+
+def fibo(le):
+    if le in [1, 2]:
+        return 1
+    else:
+        return fibo(le - 1) + fibo(le - 2)
+
+
+list = []
+
+for e in range(1, leng + 1):
+    list.append(fibo(e))
 
 
 def neg_fib(le):
@@ -14,9 +26,6 @@ def neg_fib(le):
         for i in range(2, le):
             num1, num2 = num2, num1 - num2
         return num2
-
-
-neg_fib(leng)
 
 
 for e in range(0, leng + 1):
